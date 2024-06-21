@@ -1,0 +1,23 @@
+.contactDiv {
+  display: grid;
+  width: 1280px;
+  grid-template-columns: 68% 32%;
+  background-color: rgb(179, 200, 201);
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+.Inputs {
+  width: 350px;
+  border-color: transparent;
+  border-radius: 15px;
+  height: 25px;
+}
+.contactLi {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
